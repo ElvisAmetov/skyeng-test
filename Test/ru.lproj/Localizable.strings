@@ -1,0 +1,11 @@
+/* 
+  Errors.strings
+  Test
+
+  Created by Alexey Sinitsa on 17.04.16.
+  Copyright © 2016 elvis. All rights reserved.
+*/
+
+
+"Request failed: bad request (400)" = "Не верный запрос";
+"A server with the specified hostname could not be found." = "Сервер не найден";

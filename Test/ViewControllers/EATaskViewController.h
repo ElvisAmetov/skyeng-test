@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EATaskViewController.h
 //  Test
 //
 //  Created by Alexey Sinitsa on 15.04.16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface EATaskViewController : UIViewController
 
+@property (nonatomic, strong) NSArray *tasks;
 
 @end
-

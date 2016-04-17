@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0711998D1CC25795009EF3A8 /* EATask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0711998C1CC25795009EF3A8 /* EATask.m */; };
+		071199991CC27205009EF3A8 /* UIButton+EAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 071199981CC27205009EF3A8 /* UIButton+EAButton.m */; };
+		0711999C1CC27C02009EF3A8 /* EASegueIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0711999B1CC27C02009EF3A8 /* EASegueIdentifiers.m */; };
+		071199AD1CC29929009EF3A8 /* EAAnswersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071199AC1CC29929009EF3A8 /* EAAnswersViewController.m */; };
+		071199B01CC29F48009EF3A8 /* EAInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071199AF1CC29F48009EF3A8 /* EAInfoViewController.m */; };
+		071199B31CC3BA4B009EF3A8 /* EARandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 071199B21CC3BA4B009EF3A8 /* EARandom.m */; };
+		071199B61CC3E066009EF3A8 /* EAResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071199B51CC3E066009EF3A8 /* EAResultViewController.m */; };
+		071199CD1CC4349C009EF3A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071199CF1CC4349C009EF3A8 /* Localizable.strings */; };
 		0719A8C51CC10C67006204E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719A8C41CC10C67006204E3 /* main.m */; };
-		0719A8C81CC10C67006204E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719A8C71CC10C67006204E3 /* AppDelegate.m */; };
-		0719A8CB1CC10C67006204E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719A8CA1CC10C67006204E3 /* ViewController.m */; };
+		0719A8C81CC10C67006204E3 /* EAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719A8C71CC10C67006204E3 /* EAAppDelegate.m */; };
 		0719A8CE1CC10C67006204E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0719A8CC1CC10C67006204E3 /* Main.storyboard */; };
 		0719A8D01CC10C67006204E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0719A8CF1CC10C67006204E3 /* Assets.xcassets */; };
 		0719A8D31CC10C67006204E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0719A8D11CC10C67006204E3 /* LaunchScreen.storyboard */; };
 		0719A8DE1CC10C67006204E3 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719A8DD1CC10C67006204E3 /* TestTests.m */; };
 		0719A8E91CC10C67006204E3 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719A8E81CC10C67006204E3 /* TestUITests.m */; };
+		0719A8FA1CC1107F006204E3 /* EAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719A8F91CC1107F006204E3 /* EAViewController.m */; };
+		0719A8FD1CC11094006204E3 /* EANetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719A8FC1CC11094006204E3 /* EANetwork.m */; };
+		0719A9001CC12D23006204E3 /* EATaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0719A8FF1CC12D23006204E3 /* EATaskViewController.m */; };
+		07B0E04E1CC22FAE00D2A127 /* EALinearProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B0E04D1CC22FAE00D2A127 /* EALinearProgressView.m */; };
+		3B8BB68A6203CA6AE86E43E3 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647624FFB399010EAF886C30 /* Pods_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +47,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0711998B1CC25795009EF3A8 /* EATask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EATask.h; path = Model/EATask.h; sourceTree = "<group>"; };
+		0711998C1CC25795009EF3A8 /* EATask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EATask.m; path = Model/EATask.m; sourceTree = "<group>"; };
+		071199971CC27205009EF3A8 /* UIButton+EAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+EAButton.h"; path = "Views/UIButton+EAButton.h"; sourceTree = "<group>"; };
+		071199981CC27205009EF3A8 /* UIButton+EAButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+EAButton.m"; path = "Views/UIButton+EAButton.m"; sourceTree = "<group>"; };
+		0711999A1CC27C02009EF3A8 /* EASegueIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASegueIdentifiers.h; sourceTree = "<group>"; };
+		0711999B1CC27C02009EF3A8 /* EASegueIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASegueIdentifiers.m; sourceTree = "<group>"; };
+		0711999D1CC27D76009EF3A8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		071199AB1CC29929009EF3A8 /* EAAnswersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAAnswersViewController.h; path = ViewControllers/EAAnswersViewController.h; sourceTree = "<group>"; };
+		071199AC1CC29929009EF3A8 /* EAAnswersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAAnswersViewController.m; path = ViewControllers/EAAnswersViewController.m; sourceTree = "<group>"; };
+		071199AE1CC29F48009EF3A8 /* EAInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAInfoViewController.h; path = ViewControllers/EAInfoViewController.h; sourceTree = "<group>"; };
+		071199AF1CC29F48009EF3A8 /* EAInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAInfoViewController.m; path = ViewControllers/EAInfoViewController.m; sourceTree = "<group>"; };
+		071199B11CC3BA4B009EF3A8 /* EARandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EARandom.h; path = Model/EARandom.h; sourceTree = "<group>"; };
+		071199B21CC3BA4B009EF3A8 /* EARandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EARandom.m; path = Model/EARandom.m; sourceTree = "<group>"; };
+		071199B41CC3E066009EF3A8 /* EAResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAResultViewController.h; path = ViewControllers/EAResultViewController.h; sourceTree = "<group>"; };
+		071199B51CC3E066009EF3A8 /* EAResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAResultViewController.m; path = ViewControllers/EAResultViewController.m; sourceTree = "<group>"; };
+		071199CB1CC43473009EF3A8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		071199CC1CC43473009EF3A8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		071199CE1CC4349C009EF3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		071199D01CC434D7009EF3A8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0719A8C01CC10C67006204E3 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0719A8C41CC10C67006204E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0719A8C61CC10C67006204E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0719A8C71CC10C67006204E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0719A8C91CC10C67006204E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0719A8CA1CC10C67006204E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0719A8C61CC10C67006204E3 /* EAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAAppDelegate.h; sourceTree = "<group>"; };
+		0719A8C71CC10C67006204E3 /* EAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAAppDelegate.m; sourceTree = "<group>"; };
 		0719A8CD1CC10C67006204E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0719A8CF1CC10C67006204E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0719A8D21CC10C67006204E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +80,17 @@
 		0719A8E41CC10C67006204E3 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0719A8E81CC10C67006204E3 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		0719A8EA1CC10C67006204E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0719A8F81CC1107F006204E3 /* EAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAViewController.h; path = ViewControllers/EAViewController.h; sourceTree = "<group>"; };
+		0719A8F91CC1107F006204E3 /* EAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAViewController.m; path = ViewControllers/EAViewController.m; sourceTree = "<group>"; };
+		0719A8FB1CC11094006204E3 /* EANetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EANetwork.h; path = Network/EANetwork.h; sourceTree = "<group>"; };
+		0719A8FC1CC11094006204E3 /* EANetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EANetwork.m; path = Network/EANetwork.m; sourceTree = "<group>"; };
+		0719A8FE1CC12D23006204E3 /* EATaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EATaskViewController.h; path = ViewControllers/EATaskViewController.h; sourceTree = "<group>"; };
+		0719A8FF1CC12D23006204E3 /* EATaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EATaskViewController.m; path = ViewControllers/EATaskViewController.m; sourceTree = "<group>"; };
+		07B0E04C1CC22FAE00D2A127 /* EALinearProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EALinearProgressView.h; path = Views/EALinearProgressView.h; sourceTree = "<group>"; };
+		07B0E04D1CC22FAE00D2A127 /* EALinearProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EALinearProgressView.m; path = Views/EALinearProgressView.m; sourceTree = "<group>"; };
+		2A3029EE6AEC676D67CD8412 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		647624FFB399010EAF886C30 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6656C1F7E27BA946830D532B /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8BB68A6203CA6AE86E43E3 /* Pods_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +119,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0711998A1CC2577B009EF3A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0711998B1CC25795009EF3A8 /* EATask.h */,
+				0711998C1CC25795009EF3A8 /* EATask.m */,
+				071199B11CC3BA4B009EF3A8 /* EARandom.h */,
+				071199B21CC3BA4B009EF3A8 /* EARandom.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		0719A8B71CC10C67006204E3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +137,8 @@
 				0719A8DC1CC10C67006204E3 /* TestTests */,
 				0719A8E71CC10C67006204E3 /* TestUITests */,
 				0719A8C11CC10C67006204E3 /* Products */,
+				DCB114E6308F9A449A50B397 /* Pods */,
+				49E4F6A87CCB34092DDD03A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +155,20 @@
 		0719A8C21CC10C67006204E3 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				0719A8C61CC10C67006204E3 /* AppDelegate.h */,
-				0719A8C71CC10C67006204E3 /* AppDelegate.m */,
-				0719A8C91CC10C67006204E3 /* ViewController.h */,
-				0719A8CA1CC10C67006204E3 /* ViewController.m */,
+				0711998A1CC2577B009EF3A8 /* Model */,
+				07B0E04B1CC22F8A00D2A127 /* Views */,
+				0719A8F71CC11076006204E3 /* ViewControllers */,
+				0719A8F61CC10C85006204E3 /* Network */,
+				0719A8C61CC10C67006204E3 /* EAAppDelegate.h */,
+				0719A8C71CC10C67006204E3 /* EAAppDelegate.m */,
 				0719A8CC1CC10C67006204E3 /* Main.storyboard */,
 				0719A8CF1CC10C67006204E3 /* Assets.xcassets */,
 				0719A8D11CC10C67006204E3 /* LaunchScreen.storyboard */,
 				0719A8D41CC10C67006204E3 /* Info.plist */,
 				0719A8C31CC10C67006204E3 /* Supporting Files */,
+				0711999A1CC27C02009EF3A8 /* EASegueIdentifiers.h */,
+				0711999B1CC27C02009EF3A8 /* EASegueIdentifiers.m */,
+				0711999D1CC27D76009EF3A8 /* PrefixHeader.pch */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -118,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				0719A8C41CC10C67006204E3 /* main.m */,
+				071199CF1CC4349C009EF3A8 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +200,60 @@
 			path = TestUITests;
 			sourceTree = "<group>";
 		};
+		0719A8F61CC10C85006204E3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0719A8FB1CC11094006204E3 /* EANetwork.h */,
+				0719A8FC1CC11094006204E3 /* EANetwork.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		0719A8F71CC11076006204E3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0719A8F81CC1107F006204E3 /* EAViewController.h */,
+				0719A8F91CC1107F006204E3 /* EAViewController.m */,
+				0719A8FE1CC12D23006204E3 /* EATaskViewController.h */,
+				0719A8FF1CC12D23006204E3 /* EATaskViewController.m */,
+				071199AB1CC29929009EF3A8 /* EAAnswersViewController.h */,
+				071199AC1CC29929009EF3A8 /* EAAnswersViewController.m */,
+				071199AE1CC29F48009EF3A8 /* EAInfoViewController.h */,
+				071199AF1CC29F48009EF3A8 /* EAInfoViewController.m */,
+				071199B41CC3E066009EF3A8 /* EAResultViewController.h */,
+				071199B51CC3E066009EF3A8 /* EAResultViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		07B0E04B1CC22F8A00D2A127 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07B0E04C1CC22FAE00D2A127 /* EALinearProgressView.h */,
+				07B0E04D1CC22FAE00D2A127 /* EALinearProgressView.m */,
+				071199971CC27205009EF3A8 /* UIButton+EAButton.h */,
+				071199981CC27205009EF3A8 /* UIButton+EAButton.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		49E4F6A87CCB34092DDD03A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				647624FFB399010EAF886C30 /* Pods_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB114E6308F9A449A50B397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6656C1F7E27BA946830D532B /* Pods-Test.debug.xcconfig */,
+				2A3029EE6AEC676D67CD8412 /* Pods-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0719A8ED1CC10C67006204E3 /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
+				49263FBB933A24912A3D5F42 /* Check Pods Manifest.lock */,
 				0719A8BC1CC10C67006204E3 /* Sources */,
 				0719A8BD1CC10C67006204E3 /* Frameworks */,
 				0719A8BE1CC10C67006204E3 /* Resources */,
+				DC9B1F1A121AD0C3B97E3D2B /* Embed Pods Frameworks */,
+				0E60FBEC9D2B80AE3BFEE137 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +319,7 @@
 		0719A8B81CC10C67006204E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EA;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = elvis;
 				TargetAttributes = {
@@ -225,6 +343,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 0719A8B71CC10C67006204E3;
 			productRefGroup = 0719A8C11CC10C67006204E3 /* Products */;
@@ -243,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071199CD1CC4349C009EF3A8 /* Localizable.strings in Resources */,
 				0719A8D31CC10C67006204E3 /* LaunchScreen.storyboard in Resources */,
 				0719A8D01CC10C67006204E3 /* Assets.xcassets in Resources */,
 				0719A8CE1CC10C67006204E3 /* Main.storyboard in Resources */,
@@ -265,14 +385,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E60FBEC9D2B80AE3BFEE137 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test/Pods-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49263FBB933A24912A3D5F42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9B1F1A121AD0C3B97E3D2B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test/Pods-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0719A8BC1CC10C67006204E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0719A8CB1CC10C67006204E3 /* ViewController.m in Sources */,
-				0719A8C81CC10C67006204E3 /* AppDelegate.m in Sources */,
+				071199B31CC3BA4B009EF3A8 /* EARandom.m in Sources */,
+				0719A8FA1CC1107F006204E3 /* EAViewController.m in Sources */,
+				0719A8C81CC10C67006204E3 /* EAAppDelegate.m in Sources */,
+				071199B61CC3E066009EF3A8 /* EAResultViewController.m in Sources */,
+				071199B01CC29F48009EF3A8 /* EAInfoViewController.m in Sources */,
+				0719A8FD1CC11094006204E3 /* EANetwork.m in Sources */,
 				0719A8C51CC10C67006204E3 /* main.m in Sources */,
+				07B0E04E1CC22FAE00D2A127 /* EALinearProgressView.m in Sources */,
+				071199991CC27205009EF3A8 /* UIButton+EAButton.m in Sources */,
+				0719A9001CC12D23006204E3 /* EATaskViewController.m in Sources */,
+				0711998D1CC25795009EF3A8 /* EATask.m in Sources */,
+				071199AD1CC29929009EF3A8 /* EAAnswersViewController.m in Sources */,
+				0711999C1CC27C02009EF3A8 /* EASegueIdentifiers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,10 +486,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		071199CF1CC4349C009EF3A8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071199CE1CC4349C009EF3A8 /* Base */,
+				071199D01CC434D7009EF3A8 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		0719A8CC1CC10C67006204E3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0719A8CD1CC10C67006204E3 /* Base */,
+				071199CB1CC43473009EF3A8 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +508,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0719A8D21CC10C67006204E3 /* Base */,
+				071199CC1CC43473009EF3A8 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -411,9 +600,12 @@
 		};
 		0719A8EE1CC10C67006204E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6656C1F7E27BA946830D532B /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Test/PrefixHeader.pch";
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EA.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +614,12 @@
 		};
 		0719A8EF1CC10C67006204E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3029EE6AEC676D67CD8412 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Test/PrefixHeader.pch";
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EA.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +628,7 @@
 		};
 		0719A8F11CC10C67006204E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6656C1F7E27BA946830D532B /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestTests/Info.plist;
@@ -445,6 +641,7 @@
 		};
 		0719A8F21CC10C67006204E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3029EE6AEC676D67CD8412 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestTests/Info.plist;
@@ -457,6 +654,7 @@
 		};
 		0719A8F41CC10C67006204E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6656C1F7E27BA946830D532B /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -469,6 +667,7 @@
 		};
 		0719A8F51CC10C67006204E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3029EE6AEC676D67CD8412 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +697,7 @@
 				0719A8EF1CC10C67006204E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0719A8F01CC10C67006204E3 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +706,7 @@
 				0719A8F21CC10C67006204E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0719A8F31CC10C67006204E3 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +715,7 @@
 				0719A8F51CC10C67006204E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Загрузка"; ObjectID = "4ts-uX-Bpk"; */
+"4ts-uX-Bpk.normalTitle" = "Загрузка";
+
+/* Class = "UIButton"; normalTitle = "Начать тренировку"; ObjectID = "Cag-sY-s3n"; */
+"Cag-sY-s3n.normalTitle" = "Начать тренировку";
+
+/* Class = "UIButton"; normalTitle = "Загрузка"; ObjectID = "CqO-8h-cbP"; */
+"CqO-8h-cbP.normalTitle" = "Загрузка";
+
+/* Class = "UIButton"; normalTitle = "Дальше"; ObjectID = "EvK-aR-Lwf"; */
+"EvK-aR-Lwf.normalTitle" = "Дальше";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "F24-TX-IRe"; */
+"F24-TX-IRe.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Еще раз"; ObjectID = "FU3-QF-Sry"; */
+"FU3-QF-Sry.normalTitle" = "Еще раз";
+
+/* Class = "UIButton"; normalTitle = "Загрузка"; ObjectID = "JRs-aD-e4y"; */
+"JRs-aD-e4y.normalTitle" = "Загрузка";
+
+/* Class = "UILabel"; text = "7/10"; ObjectID = "XHK-hN-5kn"; */
+"XHK-hN-5kn.text" = "7/10";
+
+/* Class = "UIButton"; normalTitle = "Не помню"; ObjectID = "Xae-uD-cVz"; */
+"Xae-uD-cVz.normalTitle" = "Не помню";
+
+/* Class = "UIButton"; normalTitle = "Загрузка"; ObjectID = "eA8-3Q-2iG"; */
+"eA8-3Q-2iG.normalTitle" = "Загрузка";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zM9-qv-NAF"; */
+"zM9-qv-NAF.text" = "Label";

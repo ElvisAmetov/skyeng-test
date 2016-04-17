@@ -6,13 +6,13 @@
 //  Copyright © 2016 elvis. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "EAAppDelegate.h"
 
-@interface AppDelegate ()
+@interface EAAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation EAAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
